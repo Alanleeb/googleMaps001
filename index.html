@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Overlander</title>
+        <meta name="viewport" content="initial-scale=1.0">
+        <meta charset='utf-8'>
+
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col">
+                    <h1 class="display-4">Map test 001 </h1>
+                </div>
+            </div>
+            <div class="row mb-2">
+                <div class="col"> 
+                    <input style="width:100%; font-size:15px; margin-bottom:10px" class='form-control' id='search' type='text' placeholder="Search..."/>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col"> 
+                    <div id="map"></div>
+                </div>
+            </div>
+        </div>
+
+        <script src="script.js"></script>
+        <script src="https://maps.googleapis.com/maps/api/js?callback=createMap&libraries=places&key=AIzaSyBHfr7-NT9RPPhRcWnYHSTkOi7e0hHN5kQ" async defer></script>
+    </body>
+</html>
